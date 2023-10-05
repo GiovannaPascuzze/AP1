@@ -1,0 +1,165 @@
+html {
+    background-image: linear-gradient(to bottom, rgb(122, 253, 253), white);
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-style: oblique;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    padding-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+ul {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    height: 230px;
+}
+
+.plumbob {
+    display: flex;
+    margin: auto;
+    height: 70px;
+}
+
+.p1 {
+    margin: auto;
+    text-align: center;
+    border: solid 2px;
+    border-color: aquamarine;
+    border-radius: 50px;
+    width: 350px;
+}
+
+.text {
+    text-align: center;
+}
+
+.imagem {
+    margin-left: 150px;
+    border: solid 1px;
+    border-color: rgb(24, 226, 233);
+    border-radius: 35px;
+    height: 140px;
+    width: 100px;
+}
+
+.selecionado {
+    background-color: rgba(56, 211, 211, 0.411);
+    border: solid;
+    border-radius: 10px;
+}
+
+.titulos {
+    column-gap: 15px;
+    text-align: center;
+    padding-right: 150px;
+}
+
+.fotos {
+    padding: auto;
+    display: flex;
+    column-gap: 15px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.ra {
+    border: solid 1px rgb(26, 152, 255);
+    border-radius: 5px;
+    border-radius: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+.pacotes {
+    border: solid 1px rgb(26, 152, 255);
+    border-radius: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+.eventos {
+    border: solid 1px rgb(26, 152, 255);
+    border-radius: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+.categorias {
+    text-align: center;
+    font-size: 20px;
+}
+
+.portifolio {
+    margin-left: 120px;
+    height: 100%;
+    width: 20%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.formulario {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+    border-color: rgba(43, 195, 241, 0.986);
+    border-radius: 5px;
+    height: 480px;
+    width: 300px;
+    background-color: rgba(53, 230, 236, 0.267);
+}
+
+form {
+    text-align: center;
+}
+
+.logo_plumbob {
+    height: 80px;
+    width: 50px;
+}
+
+input {
+    font-size: 20px;
+    border-color: rgb(114, 201, 223);
+    border-radius: 10px;
+    background-color: rgb(221, 255, 252);
+}
+
+.duvida {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 190px;
+    width: 250px;
+    resize: none;
+    border-color: rgb(114, 201, 223);
+    background-color: rgb(219, 253, 255);
+}
+
+#enviar {
+    background-color: rgb(49, 221, 252);
+    border-color: rgb(4, 213, 228);
+    border-bottom: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+}
